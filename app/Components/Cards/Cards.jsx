@@ -5,7 +5,7 @@ export default function Cards() {
     <>
       <div className="flex min-h-screen items-center justify-center bg-neutral-800 shadow-[inset_0px_20px_20px_10px_#000000]">
         <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-3">
-          <div className="mt-12 md:mt-0 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30">
+          <div className='mt-12 md:mt-0 group relative cursor-pointer items-center justify-center overflow-hidden transition-shadow hover:shadow-xl hover:shadow-black/30'
             <div className="h-96 w-72">
               <Image width={288} height={384} src="/Discord card.png" />
             </div>
